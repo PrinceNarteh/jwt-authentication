@@ -1,0 +1,33 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config -r esm server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrinceNarteh/jwt-authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrinceNarteh/jwt-authentication/issues"
+  },
+  "homepage": "https://github.com/PrinceNarteh/jwt-authentication#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "consola": "^2.15.3",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "redis": "^3.1.1"
+  }
+}
